@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --color-bg: #161a30;
+  --color-bg-varient: #2c2c6c;
+  /* --color-primary: #4db5ff; */
+  --color-priamry-varient: rgba(77, 181, 255, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+  --transition: all 400ms ease;
+}
+html {
+  scroll-behavior: smooth;
+}
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-color: #161a30 !important;
+  max-width: 1320px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.anticon.single_product_icons {
+  color: blue !important;
+}
+.productCard-container {
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 30px 150px 20px;
+}
+.hamburger {
+  color: white !important;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ant-menu-item > span > a {
+  color: white !important;
+}
+.anticon {
+  color: white !important;
+}
+.ant-menu-title-content {
+  color: white;
+}
+.ant-menu-title-content span {
+  color: white !important;
+}
+.filter-heading-bg {
+  background-color: var(--color-primary);
+  padding: 4px 8px;
+}
+.slider img,
+.card-image {
+  height: 450px;
+  object-fit: cover;
+}
+.pointer {
+  cursor: pointer;
+}
+.mt-n1 {
+  margin-top: -5rem;
+}
+.mt-n2 {
+  margin-top: -10rem;
+}
+.mt-n3 {
+  margin-top: -12rem;
+}
+.mt-n4 {
+  margin-top: -18rem;
+}
+@media only screen and (max-width: 600px) {
+  form {
+    width: 65vw !important;
+  }
+}
